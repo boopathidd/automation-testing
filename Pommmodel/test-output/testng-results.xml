@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="4" total="8" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="112979" started-at="2017-07-12T10:08:29Z" finished-at="2017-07-12T10:10:22Z">
+    <groups>
+      <group name="smoke">
+        <method signature="TC001_Login.login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC001_Login@398b7c]" name="login" class="testcases.TC001_Login"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="TC0003CreateleadPositive.createlead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC0003CreateleadPositive@1c6f14e]" name="createlead" class="testcases.TC0003CreateleadPositive"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="112979" started-at="2017-07-12T10:08:29Z" finished-at="2017-07-12T10:10:22Z">
+      <class name="testcases.TC001_Login">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.TC001_Login@398b7c]" name="beforeSuite" is-config="true" duration-ms="2448" started-at="2017-07-12T15:38:26Z" finished-at="2017-07-12T15:38:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.TC001_Login@398b7c]" name="beforeTest" is-config="true" duration-ms="1156" started-at="2017-07-12T15:38:29Z" finished-at="2017-07-12T15:38:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.TC001_Login@398b7c]" name="setData" is-config="true" duration-ms="1" started-at="2017-07-12T15:38:30Z" finished-at="2017-07-12T15:38:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC001_Login@398b7c]" name="beforeMethod" is-config="true" duration-ms="22923" started-at="2017-07-12T15:38:31Z" finished-at="2017-07-12T15:38:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC001_Login@398b7c]" name="login" duration-ms="8423" started-at="2017-07-12T15:38:54Z" data-provider="fetchData" finished-at="2017-07-12T15:39:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Demo Sales Manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC001_Login@398b7c]" name="afterMethod" is-config="true" duration-ms="8569" started-at="2017-07-12T15:39:03Z" finished-at="2017-07-12T15:39:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC001_Login@398b7c]" name="beforeMethod" is-config="true" duration-ms="22639" started-at="2017-07-12T15:39:11Z" finished-at="2017-07-12T15:39:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC001_Login@398b7c]" name="login" duration-ms="40738" started-at="2017-07-12T15:39:34Z" data-provider="fetchData" finished-at="2017-07-12T15:40:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Demo B2B CSR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC001_Login@398b7c]" name="afterMethod" is-config="true" duration-ms="4800" started-at="2017-07-12T15:40:15Z" finished-at="2017-07-12T15:40:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC001_Login@398b7c]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-07-12T15:40:22Z" finished-at="2017-07-12T15:40:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.TC001_Login@398b7c]" name="afterSuite" is-config="true" duration-ms="1623" started-at="2017-07-12T15:40:23Z" finished-at="2017-07-12T15:40:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testcases.TC001_Login -->
+      <class name="testcases.TC0003CreateleadPositive">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.TC0003CreateleadPositive@1c6f14e]" name="setData" is-config="true" duration-ms="0" started-at="2017-07-12T15:38:30Z" finished-at="2017-07-12T15:38:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC0003CreateleadPositive@1c6f14e]" name="beforeMethod" is-config="true" duration-ms="22923" started-at="2017-07-12T15:38:31Z" finished-at="2017-07-12T15:38:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="createlead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC0003CreateleadPositive@1c6f14e]" name="createlead" duration-ms="9321" started-at="2017-07-12T15:38:54Z" data-provider="fetchData" finished-at="2017-07-12T15:39:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Demo Sales Manager]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[reds]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[ytri]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[hais]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[FAILED]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:33)
+	at utils.Reporter.reportStep(Reporter.java:44)
+	at pages.MyHomepage.<init>(MyHomepage.java:15)
+	at pages.Homepage.clickcrmsfa(Homepage.java:26)
+	at testcases.TC0003CreateleadPositive.createlead(TC0003CreateleadPositive.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createlead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC0003CreateleadPositive@1c6f14e]" name="afterMethod" is-config="true" duration-ms="7548" started-at="2017-07-12T15:39:04Z" finished-at="2017-07-12T15:39:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC0003CreateleadPositive@1c6f14e]" name="beforeMethod" is-config="true" duration-ms="22654" started-at="2017-07-12T15:39:11Z" finished-at="2017-07-12T15:39:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createlead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC0003CreateleadPositive@1c6f14e]" name="createlead" duration-ms="46538" started-at="2017-07-12T15:39:34Z" data-provider="fetchData" finished-at="2017-07-12T15:40:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Demo Sales Manager]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[redshgg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ggvh]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[gvhhh]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[fegh]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[fhgl]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createlead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC0003CreateleadPositive@1c6f14e]" name="afterMethod" is-config="true" duration-ms="1085" started-at="2017-07-12T15:40:20Z" finished-at="2017-07-12T15:40:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.TC0003CreateleadPositive -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
